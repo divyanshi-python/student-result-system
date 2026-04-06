@@ -52,6 +52,7 @@ print("Passed Students =", passed)
 print("Failed Students =", failed)
 
 print("Topper Percentage =", topper_marks, "%")
+print("Total Students = ",len(students))
 # search by name
 search_name = input("\nEnter student name to search: ")
 
@@ -59,3 +60,4 @@ if search_name in students:
     print(search_name, "=", students[search_name])
 else:
     print("Student not found")
+    
